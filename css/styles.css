@@ -223,8 +223,6 @@ color: var(--gris-txt-cl);
     background-color:var(--dark-bg-cl);
 }
 
-
-
 .hero-title {
 margin-bottom: 30px;
 font-weight: 900;
@@ -326,6 +324,7 @@ color: var(--main-txt-cl);
 
 .member-list {
     display: flex;
+    padding-bottom: 94px;
 }
 
 .member-item {
