@@ -213,6 +213,10 @@ color: var(--gris-txt-cl);
 /* Hero section */
 
 .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
