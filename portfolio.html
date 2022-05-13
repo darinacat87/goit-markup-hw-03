@@ -31,8 +31,8 @@
     <header class="header">
       <div class="container header-container">
         <a
-          class="header-logo"
-          href="./portfolio.html"
+          class="link header-logo"
+          href="./index.html"
           aria-label="Логотип сайта WebStudio"
           lang="en"
           >Web<span class="logo-black">Studio</span></a
@@ -48,18 +48,18 @@
               >
             </li>
             <li class="navigation-item">
-              <a class="link navigation-link" href="">Контакты</a>
+              <a class="link navigation-link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
 
         <ul class="list contacts">
-          <li>
+          <li class="item-contacts">
             <a class="link header-mailto" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item-contacts">
             <a class="link header-phone" href="tel:380961111111"
               >+38 096 111 11 11</a
             >
@@ -69,176 +69,181 @@
     </header>
 
     <!--Уникальный контент страницы Портфолио-->
-    <main class="portfolio-main">
-      <div class="container">
-        <h1 class="title-visually-hidden">Портфолио(скрытый заголовок)</h1>
-        <ul class="list navigation-list">
-          <li class="nav-btn">
-            <button class="navigation-btn" type="button">Все</button></li>
-          <li class="nav-btn">
-            <button class="navigation-btn" type="button">Веб-сайты</button>
-          </li>
-          <li class="nav-btn">
-            <button class="navigation-btn" type="button">Додатки</button></li>
-          <li class="nav-btn">
-            <button class="navigation-btn" type="button">Дизайн</button></li>
-          <li class="nav-btn">
-            <button class="navigation-btn" type="button">Маркетинг</button>
-          </li>
-        </ul>
-        <ul class="list projects-list">
-          <li class="projects-item">
-            <a class="link projects-item-link"
-              ><img
-                src="./images/section_projects/image_projects_1.jpg"
-                alt="image-laptop"
-                width="370"
-                height="294"
-              />
-              <div class="projects-group">
-                <h2 class="link title projects-item-title">Технокряк</h2>
-                <p class="link description projects-item-text">Веб-сайт</p>
-              </div>
-            </a>
-          </li>
+    <main>
+      <section class="section portfolio">
+        <div class="container">
+          <h1 class="title-visually-hidden">Портфолио(скрытый заголовок)</h1>
+          <ul class="list navigation-portfolio-list">
+            <li class="nav-btn">
+              <button class="navigation-btn" type="button">Все</button>
+            </li>
+            <li class="nav-btn">
+              <button class="navigation-btn" type="button">Веб-сайты</button>
+            </li>
+            <li class="nav-btn">
+              <button class="navigation-btn" type="button">Додатки</button>
+            </li>
+            <li class="nav-btn">
+              <button class="navigation-btn" type="button">Дизайн</button>
+            </li>
+            <li class="nav-btn">
+              <button class="navigation-btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="list projects-list">
+            <li class="projects-item">
+              <a class="link projects-item-link"
+                ><img
+                  src="./images/section_projects/image_projects_1.jpg"
+                  alt="image-laptop"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects-group">
+                  <h2 class="link title projects-item-title">Технокряк</h2>
+                  <p class="link description projects-item-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="projects-item">
-            <a class="link projects-item-link"
-              ><img
-                src="./images/section_projects/image_projects_2.jpg"
-                alt="image-play-basketball"
-                width="370"
-                height="294"
-              />
-              <div class="projects-group">
-                <h2 class="link title projects-item-title">
-                  Постер<span lang="en"> New Orlean vs Golden Star</span>
-                </h2>
-                <p class="link description projects-item-text">Дизайн</p>
-              </div>
-            </a>
-          </li>
+            <li class="projects-item">
+              <a class="link projects-item-link"
+                ><img
+                  src="./images/section_projects/image_projects_2.jpg"
+                  alt="image-play-basketball"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects-group">
+                  <h2 class="link title projects-item-title">
+                    Постер<span lang="en"> New Orlean vs Golden Star</span>
+                  </h2>
+                  <p class="link description projects-item-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="projects-item">
-            <a class="link projects-item-link"
-              ><img
-                src="./images/section_projects/image_projects_3.jpg"
-                alt="image-fish"
-                width="370"
-                height="294"
-              />
-              <div class="projects-group">
-                <h2 class="link title projects-item-title">
-                  Ресторан<span lang="en"> Seafood</span>
-                </h2>
-                <p class="link description projects-item-text">Приложение</p>
-              </div>
-            </a>
-          </li>
+            <li class="projects-item">
+              <a class="link projects-item-link"
+                ><img
+                  src="./images/section_projects/image_projects_3.jpg"
+                  alt="image-fish"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects-group">
+                  <h2 class="link title projects-item-title">
+                    Ресторан<span lang="en"> Seafood</span>
+                  </h2>
+                  <p class="link description projects-item-text">Приложение</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="projects-item">
-            <a class="link projects-item-link"
-              ><img
-                src="./images/section_projects/image_projects_4.jpg"
-                alt="image-headphones"
-                width="370"
-                height="294"
-              />
-              <div class="projects-group">
-                <h2 class="link title projects-item-title">
-                  Проект<span lang="en"> Prime</span>
-                </h2>
-                <p class="link description projects-item-text">Маркетинг</p>
-              </div>
-            </a>
-          </li>
+            <li class="projects-item">
+              <a class="link projects-item-link"
+                ><img
+                  src="./images/section_projects/image_projects_4.jpg"
+                  alt="image-headphones"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects-group">
+                  <h2 class="link title projects-item-title">
+                    Проект<span lang="en"> Prime</span>
+                  </h2>
+                  <p class="link description projects-item-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="projects-item">
-            <a class="link projects-item-link"
-              ><img
-                src="./images/section_projects/image_projects_5.jpg"
-                alt="image-boxex"
-                width="370"
-                height="294"
-              />
-              <div class="projects-group">
-                <h2 class="link title projects-item-title">
-                  Проект<span lang="en"> Boxes</span>
-                </h2>
-                <p class="link description projects-item-text">Приложение</p>
-              </div>
-            </a>
-          </li>
+            <li class="projects-item">
+              <a class="link projects-item-link"
+                ><img
+                  src="./images/section_projects/image_projects_5.jpg"
+                  alt="image-boxex"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects-group">
+                  <h2 class="link title projects-item-title">
+                    Проект<span lang="en"> Boxes</span>
+                  </h2>
+                  <p class="link description projects-item-text">Приложение</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="projects-item">
-            <a class="link projects-item-link"
-              ><img
-                src="./images/section_projects/image_projects_6.jpg"
-                alt="image-monitor"
-                width="370"
-                height="294"
-              />
-              <div class="projects-group">
-                <h2 lang="en" class="link title projects-item-title">
-                  Inspiration has no Borders
-                </h2>
-                <p class="link description projects-item-text">Веб-сайт</p>
-              </div>
-            </a>
-          </li>
+            <li class="projects-item">
+              <a class="link projects-item-link"
+                ><img
+                  src="./images/section_projects/image_projects_6.jpg"
+                  alt="image-monitor"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects-group">
+                  <h2 lang="en" class="link title projects-item-title">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="link description projects-item-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="projects-item">
-            <a class="link projects-item-link"
-              ><img
-                src="./images/section_projects/image_projects_7.jpg"
-                alt="image-journal"
-                width="370"
-                height="294"
-              />
-              <div class="projects-group">
-                <h2 class="link title projects-item-title">
-                  Издание<span lang="en"> Limited Edition</span>
-                </h2>
-                <p class="link description projects-item-text">Дизайн</p>
-              </div>
-            </a>
-          </li>
+            <li class="projects-item">
+              <a class="link projects-item-link"
+                ><img
+                  src="./images/section_projects/image_projects_7.jpg"
+                  alt="image-journal"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects-group">
+                  <h2 class="link title projects-item-title">
+                    Издание<span lang="en"> Limited Edition</span>
+                  </h2>
+                  <p class="link description projects-item-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="projects-item">
-            <a class="link projects-item-link"
-              ><img
-                src="./images/section_projects/image_projects_8.jpg"
-                alt="image-label"
-                width="370"
-                height="294"
-              />
-              <div class="projects-group">
-                <h2 class="link title projects-item-title">
-                  Проект<span lang="en"> LAB</span>
-                </h2>
-                <p class="link description projects-item-text">Маркетинг</p>
-              </div>
-            </a>
-          </li>
+            <li class="projects-item">
+              <a class="link projects-item-link"
+                ><img
+                  src="./images/section_projects/image_projects_8.jpg"
+                  alt="image-label"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects-group">
+                  <h2 class="link title projects-item-title">
+                    Проект<span lang="en"> LAB</span>
+                  </h2>
+                  <p class="link description projects-item-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="projects-item">
-            <a class="link projects-item-link"
-              ><img
-                src="./images/section_projects/image_projects_9.jpg"
-                alt="image-laptop-application"
-                width="370"
-                height="294"
-              />
-              <div class="projects-group">
-                <h2 lang="en" class="link title projects-item-title">
-                  Growing Business
-                </h2>
-                <p class="link description projects-item-text">Приложение</p>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
+            <li class="projects-item">
+              <a class="link projects-item-link"
+                ><img
+                  src="./images/section_projects/image_projects_9.jpg"
+                  alt="image-laptop-application"
+                  width="370"
+                  height="294"
+                />
+                <div class="projects-group">
+                  <h2 lang="en" class="link title projects-item-title">
+                    Growing Business
+                  </h2>
+                  <p class="link description projects-item-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
